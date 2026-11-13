@@ -1,0 +1,15 @@
+{
+  "protected_names": [
+    "internal-sdk",
+    "app"
+  ],
+  "typo_affixes": [
+    "js",
+    "py",
+    "lib",
+    "-utils"
+  ],
+  "allow_scripts": false,
+  "allow_public": true,
+  "max_packages": 20
+}
